@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ES2015",
+    "declaration": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "pretty": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "Node",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "types": ["@dcloudio/types"]
+  },
+  "include": [
+    "src",
+    "typings/index.d.ts"  
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "name": "@friendlyjesse/uni-socket",
+  "version": "1.0.0",
+  "description": "uni-app 版 socket 封装",
+  "main": "dist/bundle.umd.js",
+  "module": "dist/bundle.esm.js",
+  "typings": "dist/index.d.ts",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FriendlyJesse/uni-socket.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "rollup -w -c",
+    "build": "rollup -c",
+    "lint": "eslint ./src/**/*.{js,ts} --fix",
+    "release": "bash release.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "socket",
+    "websocket",
+    "uniapp",
+    "uniapp socket"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@friendlyjesse/library": "^1.0.4"
+  },
+  "devDependencies": {
+    "@dcloudio/types": "^2.2.4",
+    "@typescript-eslint/eslint-plugin": "^4.23.0",
+    "@typescript-eslint/parser": "^4.23.0",
+    "eslint": "^7.26.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "rollup": "^2.47.0",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "tslib": "^2.2.0",
+    "typescript": "^4.2.4",
+    "vue": "^2.6.12"
+  }
+}
